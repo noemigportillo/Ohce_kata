@@ -1,17 +1,40 @@
-# Repositorio base
-## Contexto
-Originalmente era el repositorio string-calculator.
-Dado que este es el repositorio a dia Lunes 6 Marzo de 2023 mas actualizado 
-y con mas instalaciones necesarias este es el repositorio base a dia de hoy.
+# Ohce Kata
 
-El repositorio base cuenta con las instalaciones necesarias para enfrentarse
-a problemas futuros.
+The Ohce kata, a short and simple exercise to practice outside-in TDD using test doubles
 
-## ATENCION
-Este repositorio hay que actualizarlo conforme vayamos instalando más cosas
-en algún otro. 
+Published by Manuel Rivero on 25/05/2016
 
-Voy a dejar el código de StringCalculator.php y StringCalculatorTest.php como
-ejemplo base.
+Katas, Learning, Community, Test Doubles
 
-PRUEBA
+I created this short and simple kata to practice outside-in TDD using test doubles for a mentoring Álvaro and I are doing in Magento Barcelona:
+
+ohce is a console application that echoes the reverse of what you input through the console.
+
+Even though it seems a silly application, ohce knows a thing or two.
+
+    When you start oche, it greets you differently depending on the current time, but only in Spanish:
+        Between 20 and 6 hours, ohce will greet you saying: ¡Buenas noches < your name >!
+        Between 6 and 12 hours, ohce will greet you saying: ¡Buenos días < your name >!
+        Between 12 and 20 hours, ohce will greet you saying: ¡Buenas tardes < your name >!
+    When you introduce a palindrome, ohce likes it and after reverse-echoing it, it adds ¡Bonita palabra!
+    ohce knows when to stop, you just have to write Stop! and it’ll answer Adios < your name > and end.
+
+This is an example of using ohce during the morning:
+
+~~~
+$ ohce Pedro
+> ¡Buenos días Pedro!
+$ hola
+> aloh
+$ oto
+> oto
+> ¡Bonita palabra!
+$ stop
+> pots
+$ Stop!
+> Adios Pedro
+~~~
+
+I hope you enjoy doing it.
+
+Originally published in Manuel Rivero's blog. 
